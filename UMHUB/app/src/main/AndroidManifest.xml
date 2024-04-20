@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="comp3350.umhub">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/display_pic"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UMHUB">
+        <activity android:name=".presentation.RateTutorsActivity" />
+        <activity android:name=".presentation.TutorsActivity" />
+        <activity android:name=".presentation.CourseReviewsActivity" />
+        <activity android:name=".presentation.WriteCourseReviewActivity" />
+        <activity android:name=".presentation.SeeCourseReviewActivity" />
+        <activity android:name=".presentation.CoursesActivity" />
+        <activity android:name=".presentation.ProgramsActivity" />
+        <activity android:name=".presentation.MajorsActivity" />
+        <activity android:name=".presentation.LoginActivity"/>
+        <activity android:name=".presentation.HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

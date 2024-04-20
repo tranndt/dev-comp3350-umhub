@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:id = "@+id/listCourses"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context = "comp3350.umhub.presentation.CoursesActivity">
+
+    <TextView
+        android:id="@+id/table1year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#a52a2a"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:text="@string/table1"
+        android:gravity="center_horizontal" />
+
+    <ListView
+        android:id="@+id/firstyearcourses"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#ffd700">
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/table2year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffd700"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:text="@string/table2"
+        android:gravity="center_horizontal" />
+
+    <ListView
+        android:id="@+id/secondyearcourses"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#a52a2a">
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/table3year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#a52a2a"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:text="@string/table3"
+        android:gravity="center_horizontal" />
+
+    <ListView
+        android:id="@+id/thirdyearcourses"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#ffd700">
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/table4year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffd700"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:text="@string/table4"
+        android:gravity="center_horizontal" />
+
+    <ListView
+        android:id="@+id/fourthyearcourses"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#a52a2a">
+
+    </ListView>
+
+</LinearLayout>

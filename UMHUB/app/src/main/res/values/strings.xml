@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">UMHUB</string>
+    <string name="slogan">One-stop-shop for all university students\' needs!</string>
+    <string name="proceed">Click here to proceed</string>
+    <string name="logo">Logo</string>
+    <string name="loginUserName">Enter your username:</string>
+    <string name="loginPassword">Enter your password:</string>
+    <string name="header"> Lets sign up for UMHUB! </string>
+    <string name="header2">New to UMHUB?</string>
+    <string name="table1">Year 1</string>
+    <string name="table2">Year 2</string>
+    <string name="table3">Year 3</string>
+    <string name="table4">Year 4</string>
+    <string name="courses">Click here to view all courses under the major</string>
+    <string name="programs">List of all the programs under the major</string>
+    <string name="majors">List of all the majors available</string>
+    <string name="tutorEntries">Tutors available for this course.</string>
+    <string name="rateProf">Rate this Tutor</string>
+    <string name="submit">Submit</string>
+    <string name="goback2">Back to Tutors</string>
+    <string name="goback1">Back to Courses</string>
+    <string name="empty_review_list_text">Be the first to write a review</string>
+    <string name="login">Login</string>
+    <string name="guest">Or continue as Guest</string>
+    <string name="admin">admin</string>
+    <string name="password">123456</string>
+    <string name="db">123456</string>
+    <string name="schema">CREATE TABLE IF NOT EXISTS MAJORS (_id TEXT NOT NULL PRIMARY KEY); CREATE TABLE IF NOT EXISTS PROGRAMS (_id TEXT NOT NULL PRIMARY KEY, MAJOR TEXT REFERENCES MAJORS(_id)); CREATE TABLE IF NOT EXISTS COURSES (_id TEXT NOT NULL PRIMARY KEY, NAME TEXT, DESCRIPTION TEXT, YEAR INTEGER, MAJOR REFERENCES MAJORS(_id)); CREATE TABLE IF NOT EXISTS USERS (_id TEXT NOT NULL PRIMARY KEY, PASSWORD TEXT NOT NULL); CREATE TABLE IF NOT EXISTS COURSEREVIEWS (_id INTEGER PRIMARY KEY AUTOINCREMENT, COURSEID TEXT REFERENCES COURSES(_id), USERID TEXT REFERENCES USERS(_id), REVIEW TEXT, SCORE INTEGER); CREATE TABLE IF NOT EXISTS COURSESPROGRAMS (COURSEID TEXT, PROGRAMID TEXT REFERENCES PROGRAMS(_id), PRIMARY KEY (COURSEID,PROGRAMID)); INSERT INTO USERS VALUES(\'admin\',\'123456\'); INSERT INTO USERS VALUES(\'guest\',\'123456\'); INSERT INTO USERS VALUES(\'admin2\',\'123456\'); INSERT INTO USERS VALUES(\'admin3\',\'123456\'); CREATE TABLE IF NOT EXISTS MAJORS (_id TEXT NOT NULL PRIMARY KEY); CREATE TABLE IF NOT EXISTS PROGRAMS (_id TEXT NOT NULL PRIMARY KEY, MAJOR TEXT REFERENCES MAJORS(_id)); CREATE TABLE IF NOT EXISTS COURSES (_id TEXT NOT NULL PRIMARY KEY, NAME TEXT, DESCRIPTION TEXT, YEAR INTEGER, MAJOR REFERENCES MAJORS(_id)); CREATE TABLE IF NOT EXISTS USERS (_id TEXT NOT NULL PRIMARY KEY, PASSWORD TEXT NOT NULL); CREATE TABLE IF NOT EXISTS COURSEREVIEWS (_id INTEGER PRIMARY KEY AUTOINCREMENT, COURSEID TEXT REFERENCES COURSES(_id), USERID TEXT REFERENCES USERS(_id), REVIEW TEXT, SCORE INTEGER); CREATE TABLE IF NOT EXISTS COURSESPROGRAMS (COURSEID TEXT, PROGRAMID TEXT REFERENCES PROGRAMS(_id), PRIMARY KEY (COURSEID,PROGRAMID));</string>
+
+
+</resources>

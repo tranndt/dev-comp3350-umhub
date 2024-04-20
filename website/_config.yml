@@ -1,0 +1,50 @@
+### VALUES YOU SHOULD CHANGE ###
+
+title: UMHUB
+description: Project website for UMHUB by Group 7 COMP 3350 A01 Winter 2021
+
+username: UMHUB
+typing_text: By Group 7 A01
+
+show_aboutme_card: true
+about_me_title: Vision Statement
+about_me_description: UMHUB will be used to guide students to choose the correct program and courses under their degree path. It will show an outline of the course order the students should enroll in and provide an overview of different subjects and their professors.  Users can choose to sign-in to the system to access other actions, including rating courses and professors. This system intends to act as a tool to motivate students to prepare ahead for classes by using relevant discussion groups and a place to exchange or sell textbooks.
+
+show_users_card: true
+users_title: Intended Users
+users_description: The system is mainly targeted towards students currently studying at the University of Manitoba, though it can also be of use to prospective students, recent graduates, academic advisors, and tutors. Students can easily see all the different courses, including any course prerequisites they can take in a program and an overview of the content taught in those courses all in one place. Moreover, students will have the chance to discuss and get help from peers who agree to provide tutoring. Prospective students can also use this system to educate themselves on the various courses available at the university, helping them plan for their future semesters. Apart from students, academic advisors can use this system to explain to students about different degree paths they can take and guide them conveniently. Tutors can use the system to see the assigned tutor ratings and conclude if they need improvements in their teaching methods.
+
+show_overview_card: true
+overview_title: Overview of major functionality
+overview_description: First, the system will give the option to log in or continue as a guest account. The guest users will have limited functionalities compared to the registered users. When inside, it will provide a list of majors that are currently available at the University of Manitoba. Choosing one such major will list all the different program options available for students to select. The user can either view all the courses under one major or view courses specific to one chosen program. Furthermore, each subject will have multiple features specific to it. These include a course description (overview of the course content and any prerequisites), a list of current reviews for the course, a function to add a new review and also, see and rate the tutors available.
+
+show_team_card: true
+team_title: Team Members
+team1_description: The most hardworking and coolest team ever has to consist of the coolest people. We present you <b>JAMS</b>.
+team2_description: <b>Skills we developed -</b> <br> 
+
+show_sales_card: true
+sales_title: Sales Pitch
+sales_description: The system will be a significant improvement to the already existing designs. It will provide answers to all the frequently asked questions, particularly by the students. The long queues in front of the student advisors' offices and delayed responses can get frustrating. Therefore, the system aims to provide the students with all the necessary course information quickly and easily without any appointments. The system will provide adequate information for students to choose the right course at the right time. This will help reduce the number of withdrawals or excess courses, speeding up their degree completion. Besides, the system provides a platform to buy and sell used textbooks and avoid buying expensive new ones or struggle to find used books. Past students can provide details of their experiences working with different courses and tutors. The general discussion and social groups will help develop peer bonds, especially amongst the new undergraduate students. Additionally, the system intends to easy to use and reliable by all users equally.
+
+show_velocity_card: true
+velocity_title: Velocity Chart
+velocity_description: Why?
+
+show_postmortem_card: true
+postmortem_title: Postmortem
+
+### END OF VALUES YOU SHOULD CHANGE ###
+
+plugins:
+  - "jekyll-github-metadata"
+
+exclude:
+  [
+    "_assets",
+    "Gemfile",
+    "Gemfile.lock",
+    "gulpfile.js",
+    "node_modules",
+    "package.json",
+  ]
